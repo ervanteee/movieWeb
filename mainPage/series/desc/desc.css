@@ -164,6 +164,13 @@ body{
             max-width:calc(112.28px*90/100);
             max-height:calc(38px*90/100);
     }
+
+    .img-mission{
+        width: calc(240px *80/100);
+        height: calc(220px *80/100);
+        margin-left: 40%;
+        margin-bottom: 2em;
+    }
  }
 
  @media (max-width: 576px) {
@@ -185,5 +192,20 @@ body{
     button{
         max-width:calc(112.28px*80/100);
         max-height:calc(38px*80/100);
-}
+    }
+
+    .nav-link{
+        font-size: 10px;
+    }
+    
+    .logos{
+        font-size: 20px;
+    }
+
+    .img-mission{
+        width: calc(240px *60/100);
+        height: calc(220px *65/100);
+        margin-left: 27%;
+        margin-bottom: 2em;
+    }
  }

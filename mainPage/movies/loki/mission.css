@@ -126,4 +126,19 @@ body{
         font-size:8.28px ;
     }
 
+    .nav-link{
+        font-size: 10px;
+    }
+    
+    .logos{
+        font-size: 20px;
+    }
+
+    .img-mission{
+        width: calc(240px *60/100);
+        height: calc(220px *65/100);
+        margin-left: 27%;
+        margin-bottom: 2em;
+    }
+
  }

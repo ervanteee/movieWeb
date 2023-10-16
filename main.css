@@ -167,12 +167,22 @@ body{
     .card{
         border:0;
         padding: 0;
-        max-width:calc(10em*90/100);
+        margin-right: 0;
+        margin-bottom: 6em;
+        max-width:calc(10em*95/100);
         background-color: #141414;
-        max-height:calc(490px*90/100);
+        max-height:calc(490px*50/100);
     }
     .row-tengah{
         margin-left: 5%;
+    }
+
+    .card-title{
+        font-size: 10px;
+    }
+
+    .card-text{
+        font-size: 8px;
     }
  }
 
@@ -216,4 +226,19 @@ body{
         font-size:8.28px ;
     }
 
+    .nav-link{
+        font-size: 10px;
+    }
+    
+    .logos{
+        font-size: 20px;
+    }
+
+    .garisJudul{
+        font-size: 1.3em;
+    }
+
+    .judul{
+        font-size: 0.8em;
+    }
  }
