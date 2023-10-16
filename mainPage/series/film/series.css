@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Netflix Sans';
+    list-style: none;
+    color: #e5e5e5;
+    letter-spacing: 0;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff');
+    src: url('../fonts/BebasNeue/BebasNeue Thin.otf') format('opentype');
+
+}
+
+body{
+    background-color: #141414;
+}
+
+
+/* Navbar CSS */
+
+.navbar{
+    margin-bottom: 5% !important;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: #e5e5e5;
+    cursor: pointer;
+}   
+
+.nav-link:hover{
+    color: #999;
+}
+
+.logos{
+    font-family:"BebasNeue";
+    font-style:normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: #e50914;
+    display: inline-block;
+    padding: 0 4%;
+    letter-spacing: 0.1em;
+    transform: translateZ(0);
+}
+
+.scroll-color{
+    background-color: #141414;
+    transition: ease-in-out 0.9s;
+}
+
+.scroll-none{
+    background-color: transparent;
+    transition: ease-in-out 0.9s;
+
+}
+
+#srchIcon{
+    font-size: 25px;
+    margin-right: 2%;
+    color: white;
+    cursor: pointer;
+}
+
+#hideSearch{
+    display: none;
+    transition: ease-in-out 0.6s;
+}
+
+/* film detail */
+
+.img-mission{
+    height: 240px;
+    width: 196px;
+    object-fit: cover;
+}
+.lineBreak{
+    border: 1px solid red;
+}
+
+.detail-film{
+    font-size: 0.95em;
+    padding-left: 1em;
+}
+
+/* another media */
+@media (max-width: 768px) {
+    h3{
+        font-size: 16px;
+    }
+    h4{
+       font-size: 13.28px;
+    }
+    h5{
+        font-size: 10.72px;
+    }
+
+    .synopsys{
+        margin-top: 0;
+    }
+ }
+
+ @media (max-width: 576px) {
+    
+    h3{
+        font-size: 13.28px;
+    }
+
+    h4{
+        font-size: 10.72px;
+     }
+
+    h5{
+        font-size: 10.72px;
+    }
+
+    h6{
+        font-size:8.28px ;
+    }
+
+    .action{
+        font-size:8.28px ;
+    }
+
+ }

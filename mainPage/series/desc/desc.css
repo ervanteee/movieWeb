@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #e5e5e5;
+    letter-spacing: 0;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff');
+    src: url('../fonts/BebasNeue/BebasNeue Thin.otf') format('opentype');
+
+}
+
+body{
+    background-color: #141414;
+}
+
+
+/* Navbar CSS */
+
+.navbar{
+    margin-bottom: 5% !important;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: #e5e5e5;
+    cursor: pointer;
+}   
+
+.nav-link:hover{
+    color: #999;
+}
+
+.logos{
+    font-family:"BebasNeue";
+    font-style:normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    color: #e50914;
+    display: inline-block;
+    padding: 0 4%;
+    letter-spacing: 0.1em;
+    transform: translateZ(0);
+}
+
+.scroll-color{
+    background-color: #141414;
+    transition: ease-in-out 0.9s;
+}
+
+.scroll-none{
+    background-color: transparent;
+    transition: ease-in-out 0.9s;
+
+}
+
+#srchIcon{
+    font-size: 25px;
+    margin-right: 2%;
+    color: white;
+    cursor: pointer;
+}
+
+#hideSearch{
+    display: none;
+    transition: ease-in-out 0.6s;
+}
+
+/* film detail */
+
+.img-mission{
+    height: 240px;
+    width: 196px;
+    object-fit: cover;
+}
+.lineBreak{
+    border: 1px solid red;
+}
+
+.detail-film{
+    font-size: 0.95em;
+    padding-left: 1em;
+}
+
+.re-size{
+    width: 90px;
+    height: 52.84px;
+    object-fit: cover;
+}
+
+.episode{
+    font-size: 16px;
+}
+
+.date{
+    font-size: 14px;
+}
+
+.judul{
+    margin-right: 5em;
+}
+
+.action{
+    font-size: 15px;
+}
+/* owl-carousel */
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+}
+
+
+
+/* another media */
+@media (max-width: 768px) {
+    h3{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 10.72px;
+    }
+
+    .synopsys{
+        margin-top: 0;
+    }
+
+    button{
+            max-width:calc(112.28px*90/100);
+            max-height:calc(38px*90/100);
+    }
+ }
+
+ @media (max-width: 576px) {
+    
+    h3{
+        font-size: 13.28px;
+    }
+    h5{
+        font-size: 10.72px;
+    }
+
+    h6{
+        font-size:8.28px ;
+    }
+
+    .action{
+        font-size:8.28px ;
+    }
+    button{
+        max-width:calc(112.28px*80/100);
+        max-height:calc(38px*80/100);
+}
+ }
